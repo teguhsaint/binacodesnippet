@@ -1,0 +1,53 @@
+{
+  "name": "binacodenippets",
+  "displayName": "Bina Code Snippet",
+  "description": "Bina Code Snippet",
+  "publisher": "Bina Teknologi Indonesia",
+  "author": {
+    "name": "Bina Teknologi",
+    "email": "admin@binateknologi.com",
+    "url": "https://binateknologi.com"
+  },
+  "version": "1.0.1",
+ "homepage": "https://github.com/teguhsaint/binacodesnippet/",
+	"bugs": {
+		"url": "https://github.com/teguhsaint/binacodesnippet/issues",
+		"email": "hello@bradley.dev"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/teguhsaint/binacodesnippet/blob/main/README.md"
+	},
+	"keywords": [
+		"php snippets",
+		"crud snippets",
+		"css",
+		"admin lte",
+		"css snippets",
+		"vscode"
+	],
+	
+	"galleryBanner": {
+		"color": "#f9fafb"
+	},
+	"icon": "fav.png",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "php",
+        "path": "./snippets/snippets.code-snippets"
+      },
+       {
+        "language": "html",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+ 
+}
